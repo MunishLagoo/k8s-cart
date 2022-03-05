@@ -1,0 +1,5 @@
+@Library('k8s-roboshop') _
+docker(
+       COMPONENT :  'cart',
+       LABEL     :  'WORKSTATION'
+)
